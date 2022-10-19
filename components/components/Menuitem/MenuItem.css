@@ -1,0 +1,69 @@
+.app__menuitem {
+    width: 100%;
+    margin: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.app__menuitem-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__menuitem-sub {
+    width: 100%;
+    margin-top: 0;
+}
+
+.app__menuitem-name {
+    flex: 1;
+}
+
+.app__menuitem-dash {
+    width: 90px;
+    height: 1px;
+    background: var(--color-golden);
+    margin: 0 1rem;
+}
+
+.app__menuitem-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.app__menuItem-item{
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-weight: lighter;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 26px;
+    font-size: 20px;
+  }
+  
+  .app__menuItem-item_ingredient {
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: lighter;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 2000px) {
+    .app__menuItem-item{
+        line-height: 42px;
+        font-size: 36px;
+    }
+
+    .app__menuItem-item_ingredient{
+        line-height: 30x;
+        font-size: 20px;
+    }
+    
+}

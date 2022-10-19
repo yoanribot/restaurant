@@ -1,0 +1,128 @@
+
+.app__wrapper-content{
+  width: 50%;
+}
+
+.app__contact-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__contact-dash {
+    width: 90px;
+    height: 1px;
+    background: var(--color-golden);
+    margin: 0 1rem;
+}
+
+.p__contact-day{
+    color: #f36f21;
+    font-weight: lighter;
+    font-family: var(--font-base);
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 29.9px;
+    font-size: 23px;
+}
+
+iframe{    
+    height: 450px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 13px;
+    border: none;
+  }
+
+  #contactInfo{
+    flex-direction: row;
+    align-items: center;
+  }
+
+@media screen and (min-width: 2000px) {
+    .p__contact-day {
+      font-size: 37px;
+      line-height: 67px;
+    }
+
+
+}
+
+@media screen and (max-width: 1150px){
+    /* #contactInfo{
+    align-items: center;
+  } */
+  #app__findus-header{
+    font-size: 1.5rem;
+  }
+
+  #contactInfo{
+    flex-direction: column-reverse;
+  }
+
+  #app__wrapper_iFrame{
+    width: 100%;
+  }
+
+  .app__wrapper-content{
+    width: 100%;
+    margin-top: 4rem;
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .p__contact-day{
+      font-size: 21px;
+    }
+    #app__findus-header{
+      font-size: 1.25rem;
+    }
+    iframe{
+      height: 350px;
+      width: 386px;
+    }
+
+    .app__wrapper-content{
+      margin-top: 2rem;
+    }
+
+    .app__contact-head{
+      padding: 0 2rem ;
+    }
+
+    .app__contact-dash{
+      margin: 0 2rem;
+    }
+
+  }
+  
+  @media screen and (max-width: 450px) {
+    .p__contact-day {
+      font-size: 19px;
+    }  
+    iframe{
+      background-image: none;
+      border: 10px solid var(--color-golden);
+      padding: 0;
+      height: 350px;
+    }
+
+    .app__contact-head{
+      padding: 0 1rem;
+    }
+
+    .app__contact-dash{
+      margin: 0 1rem;
+    }
+  }
+
+  @media screen and (max-width: 350px){
+    iframe{
+      width: 255px;
+    }
+}
