@@ -18,7 +18,7 @@ const Newsletter = () => {
       phone: phone.value,
       formContent: formContent.value,
     };
-    let response = await fetch(`${import.meta.env.VITE_APIURL}/contact`, {
+    let response = await fetch(`/api/contact`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
