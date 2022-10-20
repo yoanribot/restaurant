@@ -8,7 +8,7 @@ import '../components/components/Newsletter/FooterOverlay.css';
 import '../components/container/AboutUs/AboutUs.css';
 import '../components/container/Chef/Chef.css';
 import '../components/container/Contact/Contact.css';
-import '../components/container/FindUs/FindUs.css';
+import '../components/container/Findus/FindUs.css';
 import '../components/container/Footer/Footer.css';
 import '../components/container/Gallery/Gallery.css';
 import '../components/container/Header/Header.css';
