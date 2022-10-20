@@ -31,11 +31,11 @@ const Laurels = () => (
 
         </div>
         <div className='app__laurels-offer_info'>
-          <p  className="p__opensans" id='laurels-offer_info'>Pour profiter de l'offre c'est très simple : </p>
+          <p  className="p__opensans" id='laurels-offer_info'>Pour profiter de l&apos;offre c&apos;est très simple : </p>
           <ul >
             <li className="p__opensans">Demandez votre carte de fidélité</li>
             <li className="p__opensans">likez notre page facebook <a href="#">TO DO</a> pour obtenir votre code</li>
-            <li className="p__opensans">Et bien sûr n'oubliez pas de la faire tamponner à chaque passage !</li>
+            <li className="p__opensans">Et bien sûr n&apos;oubliez pas de la faire tamponner à chaque passage !</li>
           </ul>
         </div>
       </div>

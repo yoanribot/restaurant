@@ -39,7 +39,7 @@ const Newsletter = () => {
       <div className="app__newsletter-heading">
         <SubHeading title="évènement" />
         <h1 className="headtext__cormorant">Nous contacter</h1>
-        <p className="p__opensans">Besoin d'informations pour organiser vos évènements (mariage, baptême, CE...) ? <br /> On répond à toutes vos questions !</p>
+        <p className="p__opensans">Besoin d&apos;informations pour organiser vos évènements (mariage, baptême, CE...) ? <br /> On répond à toutes vos questions !</p>
       </div>
 
       <form className="app__newsletter-input flex__center" onSubmit={handleSubmit}>

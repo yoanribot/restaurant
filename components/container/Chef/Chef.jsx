@@ -14,7 +14,7 @@ const Chef = () => (
         <div className='app__chef-content_quote'>
           <img src={'/quote.png'} alt="Chef quote" />
           <p className='p__opensans'>
-            <strong>Le plaisir de faire plaisir...</strong> C'est comme cela que je résume ma passion, mon métier.<br/>
+            <strong>Le plaisir de faire plaisir...</strong> C&apos;est comme cela que je résume ma passion, mon métier.<br/>
             Ici, uniquement des produits de qualité et de la fraîcheur.
             à bord de mon camion je redonne à la pizza ses lettres de noblesse alors
             Laissez-vous tenter et venez à ma rencontre !

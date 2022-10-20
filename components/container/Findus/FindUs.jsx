@@ -12,7 +12,7 @@ const FindUs = (props) => {
 
         <div className="app__wrapper-content">
           <div className='app__contact-head'>
-            <p className="p__opensans" id='app__findus-header' style={{ marginBottom:"2rem"}} > Aujourd'hui nous sommes :</p>
+            <p className="p__opensans" id='app__findus-header' style={{ marginBottom:"2rem"}} > Aujourd&apos;hui nous sommes :</p>
             <p className="p__cormorant" style={{ color: "#f36f21",fontSize:"2rem", marginBottom:"2rem", fontWeight:"lighter", marginLeft:"2rem"}}>{props.place}</p>
           </div>
 
